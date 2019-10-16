@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@*Call Customer Module*@
+<a class="btn btn-primary" asp-area="CustomerModule" asp-controller="Customer" asp-action="Index">Customer Index Via Tag Helper</a>
+
+@*Call Admin Module*@
+<a class="btn btn-primary" asp-area="AdminModule" asp-controller="Admin" asp-action="Index">Admin Index Via Tag Helper</a>
+
+@*Call Customer Module via Action*@
+<a class="btn btn-primary" asp-controller="Home" asp-action="CallCustomerModule">Customer Index Via Action</a>
+
+@*Call Admin Module via Action*@
+<a class="btn btn-primary" asp-controller="Home" asp-action="CallAdminModule">Admin Index Via Action</a>
