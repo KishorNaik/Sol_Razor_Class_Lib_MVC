@@ -5,5 +5,11 @@
 
 function onDemo() {
     console.log("On Admin Load");
+
+    $(document).ready(function () {
+
+        console.log($("#divName").data("val"));
+
+    });
 }
 
