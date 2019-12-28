@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Sol_Admin_Module;
 
 namespace Sol_Web
 {
@@ -36,6 +37,8 @@ namespace Sol_Web
                 .AddSessionStateTempDataProvider();
 
             services.AddSession();
+
+            //services.ConfigureOptions(typeof(UIConfigureOptionsAdmin));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
