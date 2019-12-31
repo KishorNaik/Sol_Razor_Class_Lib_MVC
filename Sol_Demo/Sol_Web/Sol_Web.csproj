@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Sol_Admin_Module\Sol_Admin_Module.csproj" />
     <ProjectReference Include="..\Sol_Customer_Module\Sol_Customer_Module.csproj" />
+    <ProjectReference Include="..\Sol_Users\Sol_Users.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sol_Web", "Sol_Web\Sol_Web.csproj", "{D008D23A-4EA1-4B03-98FF-E5E15FE6C53F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sol_Web", "Sol_Web\Sol_Web.csproj", "{D008D23A-4EA1-4B03-98FF-E5E15FE6C53F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sol_Customer_Module", "Sol_Customer_Module\Sol_Customer_Module.csproj", "{B91BAD8E-8DB2-4A92-B8D0-E808BA33A8DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sol_Customer_Module", "Sol_Customer_Module\Sol_Customer_Module.csproj", "{B91BAD8E-8DB2-4A92-B8D0-E808BA33A8DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sol_Admin_Module", "Sol_Admin_Module\Sol_Admin_Module.csproj", "{6085B9FC-CBAC-48F2-A8E3-9B09322D0F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sol_Admin_Module", "Sol_Admin_Module\Sol_Admin_Module.csproj", "{6085B9FC-CBAC-48F2-A8E3-9B09322D0F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sol_Users", "Sol_Users\Sol_Users.csproj", "{A63E6ACD-6AC1-442F-B653-EFDEE4AE53B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6085B9FC-CBAC-48F2-A8E3-9B09322D0F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6085B9FC-CBAC-48F2-A8E3-9B09322D0F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6085B9FC-CBAC-48F2-A8E3-9B09322D0F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63E6ACD-6AC1-442F-B653-EFDEE4AE53B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63E6ACD-6AC1-442F-B653-EFDEE4AE53B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63E6ACD-6AC1-442F-B653-EFDEE4AE53B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63E6ACD-6AC1-442F-B653-EFDEE4AE53B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
